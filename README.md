@@ -4,5 +4,5 @@
 🌱 I’m currently learning javascript deeply because i need to work in backend software development.
 💞️ I’m looking to collaborate on any interested person.
 📫 How to reach me ...you find me at mentesnot.derib@gmail.com
-😄 Pronouns: ...you can call me minte
-⚡ Fun fact: ...i love coding and football
+😄 ...you can call me minte
+⚡  ...i love coding and football
