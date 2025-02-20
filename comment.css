@@ -1,0 +1,112 @@
+#background-video {
+ position: fixed; /* Keeps the video fixed in place */
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Ensures the video covers the entire background */
+ z-index: -1; /* Places the video behind other content */
+}
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+ color: white; /* Ensure text is visible */
+}
+
+/* Full-screen Background Image with Opacity */
+
+
+
+/* Navigation Styles */
+.nav {
+ background: #333;
+ padding: 0px;
+}
+
+.nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ 
+}
+
+.nav ul li {
+ color: white;
+ padding: 10px 20px;
+ cursor: pointer;
+ transition: background 0.3s;
+}
+
+.nav ul li:hover {
+ background:green;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+ .nav ul {
+     flex-direction: column;
+     display: none;
+ }
+
+ .nav ul.show {
+     display: flex;
+ }
+
+ .menu-icon {
+     background: #333;
+     color: white;
+     padding: 10px;
+     cursor: pointer;
+     text-align: center;
+ }
+}
+
+li a{
+  text-decoration:none;
+  color:white;
+}
+
+
+/* Style the submit button */
+.submit-button {
+ background-color: #4CAF50; /* Initial background color */
+ color: white; /* Text color */
+ border: none;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 8px; /* Rounded corners */
+ transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover effect */
+.submit-button:hover {
+ background-color: #45a049; /* Darker green */
+ transform: scale(1.1); /* Slightly enlarge button */
+}
+
+/* Glowing effect on focus */
+.submit-button:focus {
+ outline: none;
+ box-shadow: 0 0 15px rgba(72, 204, 88, 0.8); /* Glowing green border */
+ animation: glow 1.5s infinite; /* Animation for glow effect */
+}
+
+/* Keyframes for glowing animation */
+@keyframes glow {
+ 0% {
+     box-shadow: 0 0 5px rgba(72, 204, 88, 0.8);
+ }
+ 50% {
+     box-shadow: 0 0 15px rgba(72, 204, 88, 1);
+ }
+ 100% {
+     box-shadow: 0 0 5px rgba(72, 204, 88, 0.8);
+ }
+}
