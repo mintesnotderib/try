@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="comment.css">
     <link rel="shortcut icon" href="commenticon.jpg" type="image/x-icon">
 </head>
+
 <body>
 
     <div class="menu-icon" onclick="toggleMenu()">☰ Menu</div>
@@ -25,40 +27,40 @@
         }
     </script>
     <h1>We need Yours Comment</h1>
-    <form action="/submit_comment" method="post">
-      <label for="name">Your Name:</label><br>
-      <input type="text" id="name" name="name" required><br>
-      <label for="email">Your Email:</label><br>
-      <input type="email" id="email" name="email" required><br>
-      <label for="phone">Your Phone:</label><br>
-      <input type="tel" id="phone" name="phone" required><br>
-      <h2>Department</h2>
-      <input type="radio" id="radio" name="radio" required>
-      <label for="radio">Software engineerig</label><br>
-      <input type="radio" id="radio1" name="radio">
-      <label for="radio1">Computer science</label><br>
-      <input type="radio" id="radio2" name="radio2">
-      <label for="radio2">Cyber security</label><br>
-      <input type="radio" id="radio3" name="radio">
-      <label for="radio">Informatioon technollogy</label><br>
-      <input type="radio" id="radio4" name="radio">
-      <label for="radio">Information system</label><br>
-      <h2>Your abilites</h2>
-      <input type="checkbox" id="checkbox" name="checkbox" required>
+    <form action="https://httpbin.org/get" method="get">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Your Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+        <h2>Department</h2>
+        <input type="radio" id="radio" name="radio" required>
+        <label for="radio">Software engineerig</label><br>
+        <input type="radio" id="radio1" name="radio">
+        <label for="radio1">Computer science</label><br>
+        <input type="radio" id="radio2" name="radio2">
+        <label for="radio2">Cyber security</label><br>
+        <input type="radio" id="radio3" name="radio">
+        <label for="radio">Informatioon technollogy</label><br>
+        <input type="radio" id="radio4" name="radio">
+        <label for="radio">Information system</label><br>
+        <h2>Your abilites</h2>
+        <input type="checkbox" id="checkbox" name="checkbox" >
 
-      <label for="checkbox">HTML</label><br>
-      <input type="checkbox" id="checkbox1" name="checkbox1" required>
-      <label for="checkbox1">CSS</label><br>
-      <input type="checkbox" id="checkbox2" name="checkbox2" required>
-      <label for="checkbox2">JavaScript</label><br>
-      <label for="comment">Your Comment:</label><br>
-      <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
-      <button type="submit" class="submit-button">Submit</button>
+        <label for="checkbox">HTML</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox1" >
+        <label for="checkbox1">CSS</label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" >
+        <label for="checkbox2">JavaScript</label><br>
+        <label for="comment">Your Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+        <button type="submit" class="submit-button">Submit</button>
     </form>
     <video autoplay muted loop id="background-video">
-     <source src="comment.mp4" type="video/mp4">
-     Your browser does not support the video tag.
- </video>
-    </body>
+        <source src="comment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
 
-    </html>
+</html>
